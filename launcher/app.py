@@ -14,6 +14,7 @@ import traceback
 KIVYLAUNCHER_PATHS = os.environ.get("KIVYLAUNCHER_PATHS")
 """
 
+
 from kivy import Config
 Config.set('graphics', 'multisamples', '0')
 
