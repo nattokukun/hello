@@ -2,6 +2,7 @@
 
 # (str) Title of your application
 ## title = (NTK) Kivy Launcher
+## title = (NTK) Kivy Launcher
 title = hello
 
 # (str) Package name
