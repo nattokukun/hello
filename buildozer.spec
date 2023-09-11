@@ -39,7 +39,17 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==master,hostpython3,android
+### requirements = python3,kivy==master,hostpython3,android
+requirements =
+    python3,
+    kivy==master,
+    hostpython3,
+    android,
+    requests,
+    urllib3,
+    charset-normalizer==2.1.1,
+    idna,
+    kivy_garden.contextmenu
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -173,7 +183,7 @@ android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.
 ##############
 
 
-android.enable_androidx = True
+### android.enable_androidx = True
 
 # (str) python-for-android branch to use, defaults to stable
 ##### p4a.branch = master
@@ -210,7 +220,9 @@ android.manifest.launch_mode = standard
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
-android.arch = armeabi-v7a
+### android.arch = armeabi-v7a
+android.archs = armeabi-v7a,arm64-v8a
+
 
 #
 # Python for android (p4a) specific
