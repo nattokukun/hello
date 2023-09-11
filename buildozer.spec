@@ -114,7 +114,7 @@ fullscreen = 0
 #android.sdk = 20
 #android.sdk = 30
 ##### android.sdk = 30
-android.sdk = 30
+android.sdk = 33
 ############################
 
 # (str) Android NDK version to use
@@ -178,8 +178,9 @@ android.sdk = 30
 
 ## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.7.0		NG
 
-android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.1.0
-
+android.gradle_dependencies =
+    androidx.documentfile:documentfile:1.0.1,
+    androidx.core:core:1.1.0
 
 ##############
 
