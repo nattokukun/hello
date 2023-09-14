@@ -176,15 +176,12 @@ android.accept_sdk_license = True
 
 ##############
 ###    android.gradle_dependencies = "androidx.documentfile:documentfile:1.0.1","androidx.core:core:1.1.0"
-
 ## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1	OK
-
 ## android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.core:core:1.7.0		NG
 
 android.gradle_dependencies =
     androidx.documentfile:documentfile:1.0.1,
     androidx.core:core:1.1.0
-
 ##############
 
 
@@ -192,7 +189,10 @@ android.gradle_dependencies =
 
 # (str) python-for-android branch to use, defaults to stable
 #### p4a.branch = master
-p4a.branch = release-2022.12.20
+####================
+######### p4a.branch = release-2022.12.20
+p4a.branch = master
+####================
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
