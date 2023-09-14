@@ -54,7 +54,8 @@ requirements = python3,kivy==master,hostpython3,android
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = all
+#### orientation = all
+orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -70,7 +71,7 @@ orientation = all
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2
+#### osx.kivy_version = 2
 
 #
 # Android specific
@@ -90,7 +91,7 @@ fullscreen = 0
 
 ########################
 #	android.api = 28
-android.api = 30
+#### android.api = 30
 ############################
 
 
@@ -101,7 +102,7 @@ android.api = 30
 ############################
 #android.sdk = 20
 #android.sdk = 30
-android.sdk = 30
+#### android.sdk = 30
 ############################
 
 # (str) Android NDK version to use
@@ -174,7 +175,8 @@ android.gradle_dependencies = androidx.documentfile:documentfile:1.0.1,androidx.
 android.enable_androidx = True
 
 # (str) python-for-android branch to use, defaults to stable
-p4a.branch = master
+#### p4a.branch = master
+p4a.branch = release-2022.12.20
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
@@ -206,7 +208,8 @@ android.manifest.launch_mode = standard
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
-android.arch = armeabi-v7a
+#### android.arch = armeabi-v7a
+android.archs = armeabi-v7a,arm64-v8a
 
 #
 # Python for android (p4a) specific
@@ -242,7 +245,7 @@ android.arch = armeabi-v7a
 # (list) Permissions
 [app:android.permissions]
 READ_EXTERNAL_STORAGE
-WRITE_EXTERNAL_STORAGE
+#### WRITE_EXTERNAL_STORAGE
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
