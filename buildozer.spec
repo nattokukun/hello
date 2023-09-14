@@ -65,11 +65,7 @@ requirements =
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-<<<<<<< HEAD
 #### orientation = all
-=======
-### orientation = all
->>>>>>> 8b2265b7c67c182360bd98e65a83abd8df59ec00
 orientation = portrait
 
 # (list) List of service to declare
@@ -86,11 +82,7 @@ orientation = portrait
 osx.python_version = 3
 
 # Kivy version to use
-<<<<<<< HEAD
 #### osx.kivy_version = 2
-=======
-##### osx.kivy_version = 2
->>>>>>> 8b2265b7c67c182360bd98e65a83abd8df59ec00
 
 #
 # Android specific
@@ -110,11 +102,7 @@ fullscreen = 0
 
 ########################
 #	android.api = 28
-<<<<<<< HEAD
 #### android.api = 30
-=======
-##### android.api = 30
->>>>>>> 8b2265b7c67c182360bd98e65a83abd8df59ec00
 ############################
 
 
@@ -125,13 +113,7 @@ fullscreen = 0
 ############################
 #android.sdk = 20
 #android.sdk = 30
-<<<<<<< HEAD
 #### android.sdk = 30
-=======
-##### android.sdk = 30
-android.sdk = 33
->>>>>>> 8b2265b7c67c182360bd98e65a83abd8df59ec00
-############################
 
 # (str) Android NDK version to use
 # android.ndk = 19b
@@ -204,14 +186,8 @@ android.gradle_dependencies =
 ### android.enable_androidx = True
 
 # (str) python-for-android branch to use, defaults to stable
-<<<<<<< HEAD
 #### p4a.branch = master
 p4a.branch = release-2022.12.20
-=======
-##### p4a.branch = master
-p4a.branch = release-2022.12.20
-#####
->>>>>>> 8b2265b7c67c182360bd98e65a83abd8df59ec00
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
@@ -243,14 +219,8 @@ android.manifest.launch_mode = standard
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
-<<<<<<< HEAD
 #### android.arch = armeabi-v7a
 android.archs = armeabi-v7a,arm64-v8a
-=======
-### android.arch = armeabi-v7a
-android.archs = armeabi-v7a,arm64-v8a
-
->>>>>>> 8b2265b7c67c182360bd98e65a83abd8df59ec00
 
 #
 # Python for android (p4a) specific
@@ -286,11 +256,7 @@ android.archs = armeabi-v7a,arm64-v8a
 # (list) Permissions
 [app:android.permissions]
 READ_EXTERNAL_STORAGE
-<<<<<<< HEAD
 #### WRITE_EXTERNAL_STORAGE
-=======
-####### WRITE_EXTERNAL_STORAGE
->>>>>>> 8b2265b7c67c182360bd98e65a83abd8df59ec00
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
