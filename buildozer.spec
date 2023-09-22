@@ -188,11 +188,8 @@ android.gradle_dependencies =
 ### android.enable_androidx = True
 
 # (str) python-for-android branch to use, defaults to stable
-#### p4a.branch = master
-####================
-######### p4a.branch = release-2022.12.20
-p4a.branch = master
-####================
+## p4a.branch = master
+p4a.branch = release-2022.12.20
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
