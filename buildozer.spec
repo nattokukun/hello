@@ -44,6 +44,7 @@ requirements =
     python3,
     kivy==master,
     hostpython3,
+    cython==0.29.33,
     android,
     requests,
     urllib3,
